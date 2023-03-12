@@ -38,7 +38,7 @@ var _this = this;
 var _a = require("openai"), Configuration = _a.Configuration, OpenAIApi = _a.OpenAIApi;
 var request = require("request");
 var configuration = new Configuration({
-    apiKey: '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'
+    apiKey: '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'
 });
 var openai = new OpenAIApi(configuration);
 var exporess = require("express");

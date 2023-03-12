@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai")
 const request = require("request")
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 })
 const openai = new OpenAIApi(configuration)
 const exporess = require("express")
@@ -17,7 +17,7 @@ let browser
 // })
 
 
-const sendTalk = async (prompt) => {
+const sendTalk = async (prompt: string) => {
     // return new Promise((resolve, reject) => {
     //   const options = {
     //     url: "https://api.openai.com/v1/chat/completions",
